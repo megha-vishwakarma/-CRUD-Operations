@@ -5,7 +5,7 @@ function Createdb(){
     $username = "root";
     $password = "";
     $dbname = "bookstore";
-
+//create database "bookstore" first
     // create connection
     $con = mysqli_connect($servername, $username, $password);
 
